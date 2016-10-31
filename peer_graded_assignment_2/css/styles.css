@@ -1,0 +1,49 @@
+body {
+	padding-top: 70px;
+}
+/* requierd for the stuck-to-top navbar */
+
+nav div.container{
+	margin-left: 0;
+}
+
+h1 {
+	font-size: 30px;
+	
+}
+
+section {
+	height: 700px;
+	background-color: #b8b894;
+	margin-bottom: 30px;
+	padding: 15px;
+}
+
+hr {
+	width: 95%;
+}
+
+.row div {
+	padding-top: 40px;
+}
+
+li a {
+	font-size: 1.3em;
+}
+
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+	background-color: #E7E7E7;
+}
+
+#nav-list {
+	padding: 0px 10px 0px;
+}
+
+@media (max-width: 767px){
+	div.collapse, #collapsable-nav {
+		background-color: #ff8533;
+		padding-top: 15px;
+		padding-bottom: 15px;
+		margin: 0px 10px 0px;
+	}
+}
